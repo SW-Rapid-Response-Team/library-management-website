@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<!--{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+-->
+
+{% if book_list %}
+    <ul>
+    {% for book in book_list %}
+        <!--url aliacing 하기 전에 /srrt_lib/{{ book.id }}/-->
+        <li><a href="{% url 'srrt_lib:detail' book_id=book.id%}">{{ book.subject }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>질문이 없습니다.</p>
+{% endif %} 
+
+
+<br>
+<br>
+
+
+<div class="container-xxl my-3">
+    <table class="table">
+        <thead>
+        <tr class="table-dark">
+            <th>번호</th>
+            <th>제목</th>
+            <th>작성일시</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% if book_list %}
+        {% for book in book_list %}
+        <tr>
+            <td>{{ forloop.counter }}</td>
+            <td>
+                <a href="{% url 'srrt_lib:detail' book.id %}">{{ book.subject }}</a>
+            </td>
+            <td>{{ book.create_date }}</td>
+        </tr>
+        {% endfor %}
+        {% else %}
+        <tr>
+            <td colspan="3">질문이 없습니다.</td>
+        </tr>
+        {% endif %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
