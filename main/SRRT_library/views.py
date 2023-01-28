@@ -8,3 +8,7 @@ def index(request):
     context = {'book_list' : book_list}
     return render(request, 'SRRT_library/book_list.html',context)
 
+def detail(request,book_isbn):
+    book = Book.objects.get(isbn=book_isbn)
+    context = {'book' : book}
+    return render(request, 'SRRT_library/book_detail.html',context)
