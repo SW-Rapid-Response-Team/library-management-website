@@ -19,7 +19,7 @@ deactivate
 2.1 가상환경을 실행한다.  
 2.2 allowed host를 설정한다.  
 library-management-website/main/config/settings.py 경로에서,  
-![example-of-gimbal](/readme_img/gcp_example.png)  
+![gcp_example](/readme_img/gcp_example.png)  
 위 그림에서 나온 외부 ip와 포트를 적는다.  
 
 <br>
