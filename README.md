@@ -34,3 +34,8 @@ python manage.py runserver 10.178.0.9:8080
 ```
 2.4 브라우저에서 django에 접속한다.  
 http://34.64.146.1:8080 접속.  
+
+# pull 해줘야 하는 setting
+1. pip install django-isbn-field==0.5.3  
+2. python manage.py migrate // migration
+3. secret key
