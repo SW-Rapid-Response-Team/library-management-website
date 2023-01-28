@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
 from .models import Book
 
@@ -9,6 +9,6 @@ def index(request):
     return render(request, 'SRRT_library/book_list.html',context)
 
 def detail(request,book_isbn):
-    book = Book.objects.get(isbn=book_isbn)
+    book = get_object_or_404(Book, pk=book_isbn)#primary_key
     context = {'book' : book}
     return render(request, 'SRRT_library/book_detail.html',context)
