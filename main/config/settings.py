@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['34.64.146.1','8080']
 # Application definition
 
 INSTALLED_APPS = [
+    'SRRT_library.apps.SrrtLibraryConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
