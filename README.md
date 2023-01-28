@@ -19,12 +19,13 @@ deactivate
 2.1 가상환경을 실행한다.  
 2.2 allowed host를 설정한다.  
 library-management-website/main/config/settings.py 경로에서,  
-![example-of-gimbal](/readme_img/gcp_example.png)  
+![example-of-gimbal](library-management-website/readme_img/gcp_example.png)  
 위 그림에서 나온 외부 ip와 포트를 적는다.  
+
 <br>
 예시) 내부 ip를 10.178.0.9, 외부 ip를 34.64.146.1라고 하자.   
 ```ALLOWED_HOSTS = ['34.64.146.1','8080']```
-와 같이 setting한다.
+와 같이 setting 한다.  
 2.3 django를 실행한다.  
 ```
 python manage.py runserver 10.178.0.9:8080
