@@ -1,5 +1,10 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Book
+
 # Create your views here.
 def index(request):
-    return HttpResponse("안녕하세요. 도서관에 오신 것을 환영합니다.")
+    book_list = Book.objects.order_by('-subject')
+    context = {'book_list' : book_list}
+    return render(request, 'SRRT_library/book_list.html',context)
+
