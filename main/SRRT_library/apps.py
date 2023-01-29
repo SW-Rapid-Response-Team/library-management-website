@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class LimConfig(AppConfig):
+class SrrtLibraryConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'lim'
+    name = 'SRRT_library'
