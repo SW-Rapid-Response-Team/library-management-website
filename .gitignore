@@ -134,3 +134,4 @@ website_virtual_env/
 
 # node_modules/bootstrap
 node_modules/
+package-lock.json
