@@ -1,6 +1,5 @@
-{% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
-
+{% extends 'base.html' %}
+{% block content %}
 <h1>{{ book.subject }}</h1>
 <div>
     {{ book.isbn }}
@@ -12,3 +11,4 @@
     <!-- <textarea name="content" id="content" rows="15"></textarea> -->
     <input type="submit" value="대출">
 </form>
+{% endblock %}
