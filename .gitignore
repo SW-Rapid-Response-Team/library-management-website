@@ -131,3 +131,6 @@ dmypy.json
 
 # virtual environment
 website_virtual_env/
+
+# node_modules/bootstrap
+node_modules/
