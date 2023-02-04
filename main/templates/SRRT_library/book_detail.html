@@ -2,3 +2,10 @@
 <div>
     {{ book.isbn }}
 </div>
+<h5>{{ book.count }}개 있습니다.</h5>
+
+<form action="{% url 'SRRT_library:checkout' book.isbn %}" method="post">
+    {% csrf_token %}
+    <!-- <textarea name="content" id="content" rows="15"></textarea> -->
+    <input type="submit" value="대출">
+</form>
