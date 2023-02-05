@@ -9,6 +9,14 @@
 <form action="{% url 'SRRT_library:checkout' book.isbn %}" method="post">
     {% csrf_token %}
     <!-- <textarea name="content" id="content" rows="15"></textarea> -->
-    <input type="submit" value="대출">
+    {% if user.is_authenticated%}
+        {% if book.count > 0 %}
+            <input type="submit" value="대출">
+        {% else %}
+            <input type="submit" value="개수 부족" disabled>
+        {% endif %}
+    {% else %}
+        <input type="submit" value="로그인이 필요합니다." disabled>
+    {% endif %}
 </form>
 {% endblock %}
