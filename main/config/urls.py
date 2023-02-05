@@ -15,8 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from SRRT_library import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('SRRT_library/',include('SRRT_library.urls')),
+    path('common/', include('common.urls')),
+    path('', views.index, name='index'),
 ]

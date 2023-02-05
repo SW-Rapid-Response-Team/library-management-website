@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['34.64.174.235','8080']
 # Application definition
 
 INSTALLED_APPS = [
+    'common.apps.CommonConfig',
     'SRRT_library.apps.SrrtLibraryConfig',
     'isbn_field',
     'django.contrib.admin',
@@ -131,3 +132,7 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# 로그인 성공후 이동하는 URL
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
