@@ -12,8 +12,12 @@ def index(request):
 
 def detail(request, book_isbn):
     book = get_object_or_404(Book, pk=book_isbn)#primary_key
-    context = {'book' : book}
-    return render(request, 'SRRT_library/book_detail.html',context)
+
+    entry = CheckoutLog.objects.filter(borrower=request.user, book = book)
+    record_exist = entry.count()
+    context = {'book' : book, 'record_exist': record_exist}
+    
+    return render(request, 'SRRT_library/book_detail.html', context)
 
 def checkout(request, book_isbn):
     book = get_object_or_404(Book, pk=book_isbn)
@@ -31,6 +35,5 @@ def return_book(request, book_isbn):
     book.save()
     
     checkout_log_list = get_list_or_404(CheckoutLog, borrower=request.user, book = book)#objects.order_by('return_date')
-    print(checkout_log_list)
     checkout_log_list[0].delete()
     return redirect('SRRT_library:detail', book_isbn=book.isbn)
