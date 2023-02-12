@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404, redirect
+from django.shortcuts import render, get_object_or_404, redirect, get_list_or_404
 from django.utils import timezone
 from django.http import HttpResponse
 from .models import Book, CheckoutLog
@@ -21,7 +21,7 @@ def checkout(request, book_isbn):
     book.save()
 
     next_week = timezone.now() + timedelta(days=7)
-    checkout_log = CheckoutLog(borrower = request.user,book = book, return_date=next_week)
+    checkout_log = CheckoutLog(borrower = request.user, book = book, return_date=next_week)
     checkout_log.save()
     return redirect('SRRT_library:detail', book_isbn=book.isbn)
 
@@ -29,6 +29,8 @@ def return_book(request, book_isbn):
     book = get_object_or_404(Book, pk=book_isbn)
     book.count += 1
     book.save()
-    checkout_log = CheckoutLog(borrower = request.user,book = book, return_date=next_week)
-    checkout_log.save()
+    
+    checkout_log_list = get_list_or_404(CheckoutLog, borrower=request.user, book = book)#objects.order_by('return_date')
+    print(checkout_log_list)
+    checkout_log_list[0].delete()
     return redirect('SRRT_library:detail', book_isbn=book.isbn)
