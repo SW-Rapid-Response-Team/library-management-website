@@ -27,7 +27,7 @@ DEBUG = True
 
 #example ALLOWED_HOSTS = ['34.64.146.1','8080']
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['34.64.174.235','8080']
+ALLOWED_HOSTS = ['34.64.104.233','8080']
 
 # Application definition
 
@@ -136,3 +136,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # 로그인 성공후 이동하는 URL
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
+
+LANGUAGE_CODE = 'ko-kr' #국가 설정
+TIME_ZONE = 'Asia/Seoul' #시간대 설정

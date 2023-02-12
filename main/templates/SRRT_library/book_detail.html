@@ -6,17 +6,34 @@
 </div>
 <h5>{{ book.count }}개 있습니다.</h5>
 
-<form action="{% url 'SRRT_library:checkout' book.isbn %}" method="post">
-    {% csrf_token %}
-    <!-- <textarea name="content" id="content" rows="15"></textarea> -->
-    {% if user.is_authenticated%}
-        {% if book.count > 0 %}
-            <input type="submit" value="대출">
+<div>
+    <div style="float:left;">
+        <form action="{% url 'SRRT_library:checkout' book.isbn %}" method="post">
+        {% csrf_token %}
+        {% if user.is_authenticated%}
+            {% if book.count > 0 %}
+                <input type="submit" value="대출">
+            {% else %}
+                <input type="submit" value="개수 부족" disabled>
+            {% endif %}
         {% else %}
-            <input type="submit" value="개수 부족" disabled>
+            <input type="submit" value="로그인이 필요합니다." disabled>
         {% endif %}
-    {% else %}
-        <input type="submit" value="로그인이 필요합니다." disabled>
-    {% endif %}
-</form>
+        </form>
+    </div>
+    <div style="float:left;">
+        <form action="{% url 'SRRT_library:return_book' book.isbn %}" method="post">
+            {% csrf_token %}
+            {% if user.is_authenticated%}
+                {% if book.count > 0 %}
+                    <input type="submit" value="반납">
+                {% else %}
+                    <input type="submit" value="개수 부족" disabled>
+                {% endif %}
+            {% else %}
+                <input type="submit" value="로그인이 필요합니다." disabled>
+            {% endif %}
+        </form>
+    </div>
+</div>
 {% endblock %}

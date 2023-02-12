@@ -2,6 +2,7 @@ from django.db import models
 from isbn_field import ISBNField
 from django.contrib.auth.models import User
 
+
 # Create your models here.
 class Book(models.Model):
     subject = models.CharField(max_length=64)
@@ -47,6 +48,4 @@ class CheckoutLog(models.Model):
     borrower = models.ForeignKey(User, on_delete=models.CASCADE)
     book = models.ForeignKey(Book, on_delete=models.CASCADE)
     return_date = models.DateTimeField()#null=True, blank=True
-    
-    def __str__(self):
-        return self.id
+
