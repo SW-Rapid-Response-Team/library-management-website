@@ -6,16 +6,16 @@
             <label for="select_category">카테고리:</label>
             <select class="custom-select" id="select_category" >
                 <option value="all" selected>all</option>
-                <option value="CG">COMPUTER_GENERAL</option>
-                <option value="PP">PHILOSOPHY_PSYCHOLOGY </option>
-                <option value="RE">RELIGION</option>
-                <option value="SO">SOCIAL</option>
-                <option value="LA">LANGUAGE</option>
-                <option value="SC">SCIENCE</option>
-                <option value="TE">TECHNOLOGY</option>
-                <option value="AR">ARTS_RECREATION</option>
-                <option value="LI">LITERATURE</option>
-                <option value="HG">HISTORY_GEOGRAPHY</option>
+                <option value="COMPUTER_GENERAL">COMPUTER_GENERAL</option>
+                <option value="PHILOSOPHY_PSYCHOLOGY">PHILOSOPHY_PSYCHOLOGY </option>
+                <option value="RRELIGIONE">RELIGION</option>
+                <option value="SOCIAL">SOCIAL</option>
+                <option value="LANGUAGE">LANGUAGE</option>
+                <option value="SCIENCE">SCIENCE</option>
+                <option value="TECHNOLOGY">TECHNOLOGY</option>
+                <option value="ARTS_RECREATION">ARTS_RECREATION</option>
+                <option value="LITERATURE">LITERATURE</option>
+                <option value="HISTORY_GEOGRAPHY">HISTORY_GEOGRAPHY</option>
             </select>
         <div>
         <div class="input-group">
@@ -31,6 +31,7 @@
             <th>번호</th>
             <th>제목</th>
             <th>보유 갯수</th>
+            <th>종류</th>
         </tr>
         </thead>
         <tbody>
@@ -42,6 +43,7 @@
                 <a href="{% url 'SRRT_library:detail' book.isbn %}">{{ book.subject }}</a>
             </td>
             <td>{{ book.count }}</td>
+            <td>{{ book.kinds_of_books }}</td>
         </tr>
         {% endfor %}
         {% else %}
