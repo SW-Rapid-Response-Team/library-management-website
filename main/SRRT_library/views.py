@@ -61,3 +61,6 @@ def return_book(request, book_isbn):
     checkout_log_list = get_list_or_404(CheckoutLog, borrower=request.user, book = book)#objects.order_by('return_date')
     checkout_log_list[0].delete()
     return redirect('SRRT_library:detail', book_isbn=book.isbn)
+
+def my_page(request):
+    return render(request, 'SRRT_library/my_page.html')

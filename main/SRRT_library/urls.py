@@ -9,4 +9,5 @@ urlpatterns = [
     path('<int:book_isbn>/',views.detail, name = 'detail'),
     path('checkout/<int:book_isbn>/', views.checkout, name='checkout'),
     path('return_book/<int:book_isbn>/', views.return_book, name='return_book'),
+    path('my_page/',views.my_page, name='my_page'),
 ] 
