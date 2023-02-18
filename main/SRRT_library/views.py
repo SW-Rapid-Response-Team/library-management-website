@@ -3,11 +3,16 @@ from django.utils import timezone
 from django.http import HttpResponse
 from .models import Book, CheckoutLog
 from datetime import timedelta
+from django.core.paginator import Paginator  
+
 
 # Create your views here.
 def index(request):
+    page = request.GET.get('page', '1')
     book_list = Book.objects.order_by('-subject')
-    context = {'book_list' : book_list}
+    paginator = Paginator(book_list, 10)  
+    page_obj = paginator.get_page(page)# 페이지당 10개씩 보여주기
+    context = {'book_list' : page_obj}
     return render(request, 'SRRT_library/book_list.html',context)
 
 def detail(request, book_isbn):
