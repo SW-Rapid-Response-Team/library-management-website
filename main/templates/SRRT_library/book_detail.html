@@ -1,10 +1,17 @@
 {% extends 'base.html' %}
 {% block content %}
-<h1>{{ book.subject }}</h1>
 <div>
-    {{ book.isbn }}
+    <div>
+        <img src="https://covers.openlibrary.org/b/isbn/{{book.isbn}}-L.jpg" />
+        
+    </div>
+    <div>
+        <h1>{{ book.subject }}</h1>
+        <br>
+        {{ book.isbn }}
+        <h5>잔여 수량 : {{ book.count }}</h5>
+    </div>
 </div>
-<h5>{{ book.count }}개 있습니다.</h5>
 
 <div>
     <div style="float:left;">
