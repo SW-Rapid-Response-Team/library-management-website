@@ -63,4 +63,7 @@ def return_book(request, book_isbn):
     return redirect('SRRT_library:detail', book_isbn=book.isbn)
 
 def my_page(request):
-    return render(request, 'SRRT_library/my_page.html')
+    if request.user.is_authenticated:
+        checkout_log = CheckoutLog.objects.filter(borrower=request.user)
+        context = {'checkout_log': checkout_log}
+    return render(request, 'SRRT_library/my_page.html',context)

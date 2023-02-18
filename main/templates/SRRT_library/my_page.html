@@ -1,5 +1,31 @@
-<div class="container-sm">100% wide until small breakpoint</div>
-<div class="container-md">100% wide until medium breakpoint</div>
-<div class="container-lg">100% wide until large breakpoint</div>
-<div class="container-xl">100% wide until extra large breakpoint</div>
-<div class="container-xxl">100% wide until extra extra large breakpoint</div>
+{% extends 'base.html' %}
+{% block content %}
+<div class="container-lg">
+    <table class="table">
+        <thead>
+        <tr class="table-dark">
+            <th>번호</th>
+            <th>제목</th>
+            <th>반납 기한</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% if checkout_log %}
+        {% for log in checkout_log %}
+        <tr>
+            <td>{{ forloop.counter }}</td>
+            <td>
+                <a href="{% url 'SRRT_library:detail' log.book.isbn %}">{{ log.book.subject }}</a>
+            </td>
+            <td>{{ log.return_date }}</td>
+        </tr>
+        {% endfor %}
+        {% else %}
+        <tr>
+            <td colspan="3"> 대출한 책이 없습니다. </td>
+        </tr>
+        {% endif %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
