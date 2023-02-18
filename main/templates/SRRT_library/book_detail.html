@@ -29,7 +29,9 @@
         <form action="{% url 'SRRT_library:return_book' book.isbn %}" method="post">
             {% csrf_token %}
             {% if user.is_authenticated%}
-                <input type="submit" value="반납">
+                {% if record_exist %}
+                    <input type="submit" value="반납">
+                {% endif %}
             {% else %}
                 <input type="submit" value="로그인이 필요합니다." disabled>
             {% endif %}
