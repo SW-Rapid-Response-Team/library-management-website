@@ -12,9 +12,12 @@ def index(request):
 
 def detail(request, book_isbn):
     book = get_object_or_404(Book, pk=book_isbn)#primary_key
-
-    entry = CheckoutLog.objects.filter(borrower=request.user, book = book)
-    record_exist = entry.count()
+    
+    record_exist = 0
+    if request.user.is_authenticated:
+        entry = CheckoutLog.objects.filter(borrower=request.user, book = book)
+        record_exist = entry.count()
+    
     context = {'book' : book, 'record_exist': record_exist}
     
     return render(request, 'SRRT_library/book_detail.html', context)
