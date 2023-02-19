@@ -1,44 +1,56 @@
 {% extends 'base.html' %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
 {% block content %}
-<div>
-    <div>
-        <img src="https://covers.openlibrary.org/b/isbn/{{book.isbn}}-L.jpg" />
-        
-    </div>
-    <div>
-        <h1>{{ book.subject }}</h1>
-        <br>
-        {{ book.isbn }}
-        <h5>잔여 수량 : {{ book.count }}</h5>
-    </div>
-</div>
-
-<div>
-    <div style="float:left;">
-        <form action="{% url 'SRRT_library:checkout' book.isbn %}" method="post">
-        {% csrf_token %}
-        {% if user.is_authenticated %}
-            {% if not record_exist %}
-                {% if book.count > 0 %}
-                    <input type="submit" value="대출">
-                {% else %}
-                    <input type="submit" value="개수 부족" disabled>
-                {% endif %}
-            {% endif %}
-        {% else %}
-            <input type="submit" value="로그인이 필요합니다." disabled>
-        {% endif %}
-        </form>
-    </div>
-    <div style="float:left;">
-        <form action="{% url 'SRRT_library:return_book' book.isbn %}" method="post">
-            {% csrf_token %}
-            {% if user.is_authenticated%}
-                <input type="submit" value="반납">
-            {% else %}
-                <input type="submit" value="로그인이 필요합니다." disabled>
-            {% endif %}
-        </form>
+<div class="container">
+    <div class = "row p-4 mb-2">
+        <div class = "col">
+            <img src="https://covers.openlibrary.org/b/isbn/{{book.isbn}}-L.jpg" />
+        </div>
+        <div class = "col">
+            <div class="row">
+                <p class = "h2"> {{ book.subject }} </p>
+            </div>
+            <hr>
+            <div class="row">
+                <p class = ""> category : {{book.kinds_of_books}} </p>
+            </div>
+            <div class="row">
+                <p class = ""> 저작자 : {{book.author}} </p>
+            </div>
+            <div class="row">
+                <p class = ""> ISBN : {{book.isbn}} </p>
+            </div>
+            <div class="row">
+                <h5>잔여 수량 : {{ book.count }}</h5>
+            </div>
+            <div class="row">
+                <form action="{% url 'SRRT_library:checkout' book.isbn %}" method="post">
+                    {% csrf_token %}
+                    {% if user.is_authenticated %}
+                        {% if not record_exist %}
+                            {% if book.count > 0 %}
+                                <input type="submit" class = "btn btn-primary" value="대출">
+                            {% else %}
+                                <input type="submit" class = "btn btn-primary" value="개수 부족" disabled>
+                            {% endif %}
+                        {% endif %}
+                    {% else %}
+                        <input type="submit" class = "btn btn-primary" value="로그인이 필요합니다." disabled>
+                    {% endif %}
+                </form>
+                <form action="{% url 'SRRT_library:return_book' book.isbn %}" method="post">
+                    {% csrf_token %}
+                    {% if user.is_authenticated%}
+                        {% if record_exist %}
+                            <input type="submit" class = "btn btn-primary" value="반납">
+                        {% endif %}
+                    {% else %}
+                        <input type="submit" value="로그인이 필요합니다." hidden>
+                    {% endif %}
+                </form>
+            </div>
+        </div>
     </div>
 </div>
 {% endblock %}

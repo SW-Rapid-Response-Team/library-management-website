@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+    <link rel="shortcut icon" href="{% static 'chemical.ico' %}">
     <title>3135 library</title>
 </head>
 <body>
@@ -18,5 +19,9 @@
 <!-- 기본 템플릿 안에 삽입될 내용 End -->
 <!-- Bootstrap JS -->
 <script src="{% static 'bootstrap.min.js' %}"></script>
+<!-- 자바스크립트 Start -->
+{% block script %}
+{% endblock %}
+<!-- 자바스크립트 End -->
 </body>
 </html>
