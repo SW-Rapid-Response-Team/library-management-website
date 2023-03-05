@@ -1,0 +1,839 @@
+Watching for file changes with StatReloader
+[26/Feb/2023 23:33:46] "GET / HTTP/1.1" 200 5628
+[26/Feb/2023 23:33:48] "GET /SRRT_library/ HTTP/1.1" 200 5628
+[26/Feb/2023 23:33:49] "GET /SRRT_library/9788966260546/ HTTP/1.1" 200 2646
+[26/Feb/2023 23:39:06] "GET / HTTP/1.1" 200 5628
+[26/Feb/2023 23:39:08] "GET /SRRT_library/9788966260546/ HTTP/1.1" 200 2646
+[26/Feb/2023 23:39:11] "GET /SRRT_library/ HTTP/1.1" 200 5628
+[26/Feb/2023 23:39:13] "GET /SRRT_library/9781402894626/ HTTP/1.1" 200 2636
+[26/Feb/2023 23:39:14] "GET /SRRT_library/ HTTP/1.1" 200 5628
+[27/Feb/2023 00:11:15,733] - Broken pipe from ('162.142.125.213', 45976)
+
+[27/Feb/2023 00:11:16] "GET / HTTP/1.1" 200 5628
+[27/Feb/2023 00:11:17,060] - Broken pipe from ('162.142.125.213', 59598)
+
+[27/Feb/2023 00:11:17] "GET / HTTP/1.1" 200 5628
+[27/Feb/2023 00:11:17] code 505, message Invalid HTTP version (2.0)
+[27/Feb/2023 00:11:17] "PRI * HTTP/2.0" 505 -
+[27/Feb/2023 00:11:18] "GET /static/chemical.ico HTTP/1.1" 200 4286
+Not Found: /favicon.ico
+[27/Feb/2023 00:11:18] "GET /favicon.ico HTTP/1.1" 404 2447
+Not Found: /.git/config
+[27/Feb/2023 02:38:17] "GET /.git/config HTTP/1.1" 404 2447
+Not Found: /metrics
+[27/Feb/2023 02:38:17] "GET /metrics HTTP/1.1" 404 2435
+[27/Feb/2023 02:38:17] "GET / HTTP/1.1" 200 5628
+[27/Feb/2023 04:01:46] code 400, message Bad request syntax ('MGLNDD_34.64.127.21_8000')
+[27/Feb/2023 04:01:46] "MGLNDD_34.64.127.21_8000" 400 -
+[27/Feb/2023 05:33:33] "GET / HTTP/1.1" 200 5628
+Not Found: /metrics
+[27/Feb/2023 05:33:34] "GET /metrics HTTP/1.1" 404 2435
+Not Found: /v2/
+[27/Feb/2023 05:33:34] "GET /v2/ HTTP/1.1" 404 2423
+Not Found: /.git/config
+[27/Feb/2023 05:33:35] "GET /.git/config HTTP/1.1" 404 2447
+Not Found: /metrics
+[27/Feb/2023 05:38:33] "GET /metrics HTTP/1.1" 404 2435
+Not Found: /v2/
+[27/Feb/2023 05:38:34] "GET /v2/ HTTP/1.1" 404 2423
+Not Found: /.git/config
+[27/Feb/2023 05:38:35] "GET /.git/config HTTP/1.1" 404 2447
+[27/Feb/2023 05:38:36] "GET / HTTP/1.1" 200 5628
+[27/Feb/2023 06:41:01,757] - Broken pipe from ('162.142.125.212', 50676)
+
+[27/Feb/2023 06:41:02] "GET / HTTP/1.1" 200 5628
+[27/Feb/2023 06:41:03,076] - Broken pipe from ('162.142.125.212', 44204)
+
+[27/Feb/2023 06:41:03] "GET / HTTP/1.1" 200 5628
+[27/Feb/2023 06:41:03] code 505, message Invalid HTTP version (2.0)
+[27/Feb/2023 06:41:03] "PRI * HTTP/2.0" 505 -
+[27/Feb/2023 06:41:04] "GET /static/chemical.ico HTTP/1.1" 200 4286
+Not Found: /favicon.ico
+[27/Feb/2023 06:41:04] "GET /favicon.ico HTTP/1.1" 404 2447
+[27/Feb/2023 09:49:32] "GET / HTTP/1.1" 200 5628
+[27/Feb/2023 09:49:32] "GET /static/bootstrap.min.js HTTP/1.1" 200 59219
+[27/Feb/2023 09:49:32] "GET /static/bootstrap.min.css HTTP/1.1" 200 163873
+[27/Feb/2023 09:49:32] "GET /static/chemical.ico HTTP/1.1" 200 4286
+[27/Feb/2023 09:49:49] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2682
+[27/Feb/2023 09:49:53] "GET / HTTP/1.1" 200 5628
+[27/Feb/2023 09:50:14] "GET /?kw=&page=1&category=TECHNOLOGY HTTP/1.1" 200 5017
+[27/Feb/2023 09:50:17] "GET /common/login/ HTTP/1.1" 200 2538
+[27/Feb/2023 09:50:29] "POST /common/login/ HTTP/1.1" 200 2893
+[27/Feb/2023 09:50:32] "POST /common/login/ HTTP/1.1" 200 2894
+[27/Feb/2023 09:50:34] "POST /common/login/ HTTP/1.1" 200 2894
+[27/Feb/2023 09:50:47] "POST /common/login/ HTTP/1.1" 302 0
+[27/Feb/2023 09:50:47] "GET / HTTP/1.1" 200 5687
+[27/Feb/2023 09:50:52] "GET /SRRT_library/9788966260546/ HTTP/1.1" 200 2673
+[27/Feb/2023 09:50:57] "POST /SRRT_library/checkout/9788966260546/ HTTP/1.1" 302 0
+[27/Feb/2023 09:50:57] "GET /SRRT_library/9788966260546/ HTTP/1.1" 200 2643
+[27/Feb/2023 09:51:02] "GET /SRRT_library/ HTTP/1.1" 200 5687
+[27/Feb/2023 09:51:03] "GET /SRRT_library/9781402894626/ HTTP/1.1" 200 2663
+[27/Feb/2023 09:51:04] "POST /SRRT_library/checkout/9781402894626/ HTTP/1.1" 302 0
+[27/Feb/2023 09:51:04] "GET /SRRT_library/9781402894626/ HTTP/1.1" 200 2633
+[27/Feb/2023 09:51:06] "GET /SRRT_library/my_page/ HTTP/1.1" 200 2789
+[27/Feb/2023 09:51:08] "GET /SRRT_library/9788966260546/ HTTP/1.1" 200 2643
+[27/Feb/2023 09:51:09] "POST /SRRT_library/return_book/9788966260546/ HTTP/1.1" 302 0
+[27/Feb/2023 09:51:09] "GET /SRRT_library/9788966260546/ HTTP/1.1" 200 2673
+[27/Feb/2023 09:51:11] "GET /SRRT_library/my_page/ HTTP/1.1" 200 2571
+[27/Feb/2023 09:51:12] "GET /SRRT_library/ HTTP/1.1" 200 5687
+Not Found: /SRRT_library/admin
+[27/Feb/2023 09:51:23] "GET /SRRT_library/admin HTTP/1.1" 404 3332
+Not Found: /favicon.ico
+[27/Feb/2023 09:51:23] "GET /favicon.ico HTTP/1.1" 404 2447
+Not Found: /SRRT_library/admin/
+[27/Feb/2023 09:51:35] "GET /SRRT_library/admin/ HTTP/1.1" 404 3335
+[27/Feb/2023 09:51:55] "GET /admin/ HTTP/1.1" 200 7407
+[27/Feb/2023 09:51:55] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[27/Feb/2023 09:51:55] "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[27/Feb/2023 09:51:55] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2616
+[27/Feb/2023 09:51:55] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18575
+[27/Feb/2023 09:51:55] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3401
+[27/Feb/2023 09:51:55] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[27/Feb/2023 09:51:55] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[27/Feb/2023 09:51:55] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[27/Feb/2023 09:51:55] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[27/Feb/2023 09:51:55] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[27/Feb/2023 09:51:55] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[27/Feb/2023 09:51:55] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[27/Feb/2023 09:52:00] "GET /admin/auth/user/ HTTP/1.1" 200 10666
+[27/Feb/2023 09:52:00] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6932
+[27/Feb/2023 09:52:00] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[27/Feb/2023 09:52:00] "GET /admin/jsi18n/ HTTP/1.1" 200 8911
+[27/Feb/2023 09:52:00] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[27/Feb/2023 09:52:00] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[27/Feb/2023 09:52:00] "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[27/Feb/2023 09:52:00] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[27/Feb/2023 09:52:00] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[27/Feb/2023 09:52:00] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[27/Feb/2023 09:52:00] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[27/Feb/2023 09:52:02] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[27/Feb/2023 09:52:02] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[27/Feb/2023 09:52:02] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[27/Feb/2023 09:52:02] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[27/Feb/2023 09:52:02] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[27/Feb/2023 09:52:10] "GET /admin/ HTTP/1.1" 200 7407
+[27/Feb/2023 09:52:12] "GET /admin/SRRT_library/book/ HTTP/1.1" 200 7208
+[27/Feb/2023 09:52:12] "GET /admin/jsi18n/ HTTP/1.1" 200 8911
+[27/Feb/2023 09:52:14] "GET /admin/SRRT_library/book/add/ HTTP/1.1" 200 8634
+[27/Feb/2023 09:52:14] "GET /static/admin/css/forms.css HTTP/1.1" 200 8878
+[27/Feb/2023 09:52:14] "GET /admin/jsi18n/ HTTP/1.1" 200 8911
+[27/Feb/2023 09:52:14] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[27/Feb/2023 09:52:14] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+[27/Feb/2023 09:52:14] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[27/Feb/2023 09:52:17] "GET /admin/SRRT_library/book/ HTTP/1.1" 200 7208
+[27/Feb/2023 09:52:18] "GET /admin/ HTTP/1.1" 200 7407
+[27/Feb/2023 09:52:19] "GET /admin/SRRT_library/checkoutlog/ HTTP/1.1" 200 7004
+[27/Feb/2023 09:52:19] "GET /admin/jsi18n/ HTTP/1.1" 200 8911
+[27/Feb/2023 09:52:21] "GET /admin/SRRT_library/checkoutlog/93/change/ HTTP/1.1" 200 9412
+[27/Feb/2023 09:52:21] "GET /admin/jsi18n/ HTTP/1.1" 200 8911
+[27/Feb/2023 09:52:21] "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+[27/Feb/2023 09:52:21] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+[27/Feb/2023 09:52:21] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[27/Feb/2023 09:52:21] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[27/Feb/2023 09:52:25] "GET /admin/SRRT_library/checkoutlog/ HTTP/1.1" 200 7004
+[27/Feb/2023 09:52:26] "GET /admin/ HTTP/1.1" 200 7407
+[27/Feb/2023 09:53:45] "GET / HTTP/1.1" 200 5628
+[27/Feb/2023 10:15:48] "GET / HTTP/1.1" 200 5628
+Not Found: /.git/config
+[27/Feb/2023 10:18:56] "GET /.git/config HTTP/1.1" 404 2447
+Not Found: /demo/.git/config
+[27/Feb/2023 10:18:56] "GET /demo/.git/config HTTP/1.1" 404 2462
+Not Found: /dev/.git/config
+[27/Feb/2023 10:18:57] "GET /dev/.git/config HTTP/1.1" 404 2459
+Not Found: /web/.git/config
+[27/Feb/2023 10:18:58] "GET /web/.git/config HTTP/1.1" 404 2459
+Not Found: /api/.git/config
+[27/Feb/2023 10:18:59] "GET /api/.git/config HTTP/1.1" 404 2459
+[27/Feb/2023 10:18:59] "GET /admin/.git/config HTTP/1.1" 302 0
+[27/Feb/2023 10:19:00] "GET /admin/login/?next=/admin/.git/config HTTP/1.1" 200 2257
+Not Found: /app/.git/config
+[27/Feb/2023 10:19:01] "GET /app/.git/config HTTP/1.1" 404 2459
+[27/Feb/2023 10:38:05] "GET / HTTP/1.1" 200 5628
+[27/Feb/2023 10:38:06] "GET /static/bootstrap.min.js HTTP/1.1" 200 59219
+[27/Feb/2023 10:38:06] "GET /static/bootstrap.min.css HTTP/1.1" 200 163873
+[27/Feb/2023 10:38:06] "GET /static/chemical.ico HTTP/1.1" 200 4286
+[27/Feb/2023 10:38:47] "GET /?kw=&page=1&category=COMPUTER_GENERAL HTTP/1.1" 200 5185
+[27/Feb/2023 10:38:50] "GET /?kw=&page=1&category=all HTTP/1.1" 200 5628
+[27/Feb/2023 10:39:02] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2682
+[27/Feb/2023 10:39:22] "GET /common/login/ HTTP/1.1" 200 2538
+[27/Feb/2023 10:39:38] "POST /common/login/ HTTP/1.1" 302 0
+[27/Feb/2023 10:39:38] "GET / HTTP/1.1" 200 5687
+[27/Feb/2023 10:39:41] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2679
+[27/Feb/2023 10:39:42] "POST /SRRT_library/return_book/9780521540513/ HTTP/1.1" 302 0
+[27/Feb/2023 10:39:42] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2709
+[27/Feb/2023 10:39:45] "POST /SRRT_library/checkout/9780521540513/ HTTP/1.1" 302 0
+[27/Feb/2023 10:39:45] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2679
+[27/Feb/2023 10:39:47] "POST /SRRT_library/return_book/9780521540513/ HTTP/1.1" 302 0
+[27/Feb/2023 10:39:47] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2709
+[27/Feb/2023 10:39:48] "POST /SRRT_library/checkout/9780521540513/ HTTP/1.1" 302 0
+[27/Feb/2023 10:39:48] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2679
+[27/Feb/2023 10:39:54] "GET /SRRT_library/ HTTP/1.1" 200 5687
+[27/Feb/2023 10:39:56] "GET /SRRT_library/my_page/ HTTP/1.1" 200 2571
+[27/Feb/2023 10:40:06] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2679
+[27/Feb/2023 10:40:07] "POST /SRRT_library/return_book/9780521540513/ HTTP/1.1" 302 0
+[27/Feb/2023 10:40:07] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2709
+[27/Feb/2023 10:40:08] "POST /SRRT_library/checkout/9780521540513/ HTTP/1.1" 302 0
+[27/Feb/2023 10:40:08] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2679
+[27/Feb/2023 10:40:09] "POST /SRRT_library/return_book/9780521540513/ HTTP/1.1" 302 0
+[27/Feb/2023 10:40:09] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2709
+[27/Feb/2023 10:40:10] "GET /SRRT_library/ HTTP/1.1" 200 5687
+[27/Feb/2023 10:40:21] "GET /SRRT_library/ HTTP/1.1" 200 5687
+[27/Feb/2023 10:40:30] "GET /SRRT_library/ HTTP/1.1" 200 5687
+[27/Feb/2023 10:40:50] "GET /common/login/ HTTP/1.1" 200 2597
+[27/Feb/2023 10:40:50] "GET /?kw=&page=1&category=all HTTP/1.1" 200 5687
+[27/Feb/2023 10:40:51] "GET /?kw=&page=1&category=COMPUTER_GENERAL HTTP/1.1" 200 5244
+[27/Feb/2023 10:41:05] "GET /admin HTTP/1.1" 301 0
+[27/Feb/2023 10:41:05] "GET /admin/ HTTP/1.1" 200 7407
+[27/Feb/2023 10:41:05] "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[27/Feb/2023 10:41:05] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2616
+[27/Feb/2023 10:41:05] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[27/Feb/2023 10:41:05] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3401
+[27/Feb/2023 10:41:05] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18575
+[27/Feb/2023 10:41:05] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[27/Feb/2023 10:41:06] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[27/Feb/2023 10:41:06] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[27/Feb/2023 10:41:06] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[27/Feb/2023 10:41:06] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[27/Feb/2023 10:41:06] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[27/Feb/2023 10:41:06] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[27/Feb/2023 10:41:06] "GET /favicon.ico HTTP/1.1" 404 2447
+[27/Feb/2023 10:41:11] "GET /admin/auth/user/ HTTP/1.1" 200 10666
+[27/Feb/2023 10:41:12] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6932
+[27/Feb/2023 10:41:12] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[27/Feb/2023 10:41:12] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[27/Feb/2023 10:41:12] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[27/Feb/2023 10:41:12] "GET /admin/jsi18n/ HTTP/1.1" 200 8911
+[27/Feb/2023 10:41:12] "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[27/Feb/2023 10:41:12] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[27/Feb/2023 10:41:12] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[27/Feb/2023 10:41:12] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[27/Feb/2023 10:41:12] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[27/Feb/2023 10:41:12] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[27/Feb/2023 10:41:12] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[27/Feb/2023 10:41:12] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[27/Feb/2023 10:41:12] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[27/Feb/2023 10:41:12] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[27/Feb/2023 10:41:53] "GET /admin/ HTTP/1.1" 200 7407
+[27/Feb/2023 12:48:26] "GET / HTTP/1.1" 200 5628
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+[27/Feb/2023 12:48:49] "GET http://api.ipify.org/?format=json HTTP/1.1" 400 65716
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+[27/Feb/2023 12:48:52] "CONNECT www.shadowserver.org:443 HTTP/1.1" 400 65919
+[27/Feb/2023 15:36:05] "GET / HTTP/1.1" 200 5628
+[27/Feb/2023 15:36:05] "GET /static/bootstrap.min.js HTTP/1.1" 200 59219
+[27/Feb/2023 15:36:06] "GET /static/bootstrap.min.css HTTP/1.1" 200 163873
+[27/Feb/2023 15:36:06] "GET /static/chemical.ico HTTP/1.1" 200 4286
+[27/Feb/2023 15:36:20] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2682
+[27/Feb/2023 15:36:33] "GET /common/login/ HTTP/1.1" 200 2538
+[27/Feb/2023 15:36:44] "POST /common/login/ HTTP/1.1" 302 0
+[27/Feb/2023 15:36:44] "GET / HTTP/1.1" 200 5687
+[27/Feb/2023 15:36:53] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2709
+[27/Feb/2023 15:36:56] "POST /SRRT_library/checkout/9780521540513/ HTTP/1.1" 302 0
+[27/Feb/2023 15:36:56] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2679
+[27/Feb/2023 15:36:57] "POST /SRRT_library/return_book/9780521540513/ HTTP/1.1" 302 0
+[27/Feb/2023 15:36:57] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2709
+[27/Feb/2023 15:37:00] "POST /SRRT_library/checkout/9780521540513/ HTTP/1.1" 302 0
+[27/Feb/2023 15:37:00] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2679
+[27/Feb/2023 15:37:01] "POST /SRRT_library/return_book/9780521540513/ HTTP/1.1" 302 0
+[27/Feb/2023 15:37:02] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2709
+[27/Feb/2023 15:37:02] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2709
+Not Found: /SRRT_library/9780521540513/static/chemical.ico
+[27/Feb/2023 15:37:02] "GET /SRRT_library/9780521540513/static/chemical.ico HTTP/1.1" 404 3416
+[27/Feb/2023 15:37:02,310] - Broken pipe from ('211.234.199.12', 44438)
+
+[27/Feb/2023 15:37:21] "GET /SRRT_library/my_page/ HTTP/1.1" 200 2324
+[27/Feb/2023 15:54:16,080] - Broken pipe from ('211.234.199.12', 44418)
+
+[27/Feb/2023 15:54:16,082] - Broken pipe from ('211.234.199.12', 44420)
+
+[27/Feb/2023 17:56:03] "GET / HTTP/1.1" 200 5628
+[27/Feb/2023 17:56:03] "GET /static/bootstrap.min.js HTTP/1.1" 200 59219
+[27/Feb/2023 17:56:03] "GET /static/bootstrap.min.css HTTP/1.1" 200 163873
+[27/Feb/2023 17:56:03] "GET /static/chemical.ico HTTP/1.1" 200 4286
+[27/Feb/2023 18:09:09] "GET /SRRT_library/9781402894626/ HTTP/1.1" 200 2636
+[27/Feb/2023 18:09:14] "GET /SRRT_library/ HTTP/1.1" 200 5628
+Not Found: /robots.txt
+[27/Feb/2023 18:10:42] "GET /robots.txt HTTP/1.1" 404 2444
+[27/Feb/2023 18:10:43] "HEAD / HTTP/1.1" 200 5628
+[27/Feb/2023 18:36:49] "GET / HTTP/1.1" 200 5628
+[27/Feb/2023 18:36:52] "GET / HTTP/1.1" 200 5628
+[27/Feb/2023 18:37:17] "GET /admin HTTP/1.1" 301 0
+[27/Feb/2023 18:37:18] "GET /admin/ HTTP/1.1" 302 0
+[27/Feb/2023 18:37:18] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2235
+[27/Feb/2023 18:37:18] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2616
+[27/Feb/2023 18:37:18] "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[27/Feb/2023 18:37:18] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18575
+[27/Feb/2023 18:37:18] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3401
+[27/Feb/2023 18:37:18] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[27/Feb/2023 18:37:18] "GET /static/admin/css/login.css HTTP/1.1" 200 954
+[27/Feb/2023 18:37:18] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[27/Feb/2023 18:37:18] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[27/Feb/2023 18:37:18] "GET /favicon.ico HTTP/1.1" 404 2447
+[27/Feb/2023 18:37:24] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[27/Feb/2023 18:37:24] "GET /admin/ HTTP/1.1" 200 7407
+[27/Feb/2023 18:37:24] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[27/Feb/2023 18:37:24] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[27/Feb/2023 18:37:24] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[27/Feb/2023 18:37:24] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[27/Feb/2023 18:37:24] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[27/Feb/2023 18:37:29] "GET /admin/SRRT_library/book/ HTTP/1.1" 200 7208
+[27/Feb/2023 18:37:29] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6932
+[27/Feb/2023 18:37:29] "GET /admin/jsi18n/ HTTP/1.1" 200 8911
+[27/Feb/2023 18:37:29] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[27/Feb/2023 18:37:29] "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[27/Feb/2023 18:37:29] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[27/Feb/2023 18:37:29] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[27/Feb/2023 18:37:29] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[27/Feb/2023 18:37:29] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[27/Feb/2023 18:37:29] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[27/Feb/2023 18:37:29] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[27/Feb/2023 18:37:29] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[27/Feb/2023 18:37:45] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2709
+[27/Feb/2023 18:37:46] "GET /SRRT_library/ HTTP/1.1" 200 5687
+[27/Feb/2023 18:37:47] "GET /SRRT_library/9788966260546/ HTTP/1.1" 200 2673
+[27/Feb/2023 18:37:52] "POST /SRRT_library/checkout/9788966260546/ HTTP/1.1" 302 0
+[27/Feb/2023 18:37:52] "GET /SRRT_library/9788966260546/ HTTP/1.1" 200 2643
+[27/Feb/2023 18:37:52] "POST /SRRT_library/return_book/9788966260546/ HTTP/1.1" 302 0
+[27/Feb/2023 18:37:52] "GET /SRRT_library/9788966260546/ HTTP/1.1" 200 2673
+[27/Feb/2023 18:37:52] "POST /SRRT_library/checkout/9788966260546/ HTTP/1.1" 302 0
+[27/Feb/2023 18:37:52] "GET /SRRT_library/9788966260546/ HTTP/1.1" 200 2643
+[27/Feb/2023 18:37:53] "GET /SRRT_library/ HTTP/1.1" 200 5687
+[27/Feb/2023 22:35:07] code 400, message Bad request version ('À\x14À')
+[27/Feb/2023 22:35:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '34.64.202.179:8000'. You may need to add '34.64.202.179' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Feb/2023 23:51:44] "GET / HTTP/1.1" 400 66690
+Invalid HTTP_HOST header: '34.64.202.179:8000'. You may need to add '34.64.202.179' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[28/Feb/2023 23:51:44] "GET /favicon.ico HTTP/1.1" 400 66747
+Invalid HTTP_HOST header: '34.64.202.179:8000'. You may need to add '34.64.202.179' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Feb/2023 23:51:53] "GET / HTTP/1.1" 400 66827
+Invalid HTTP_HOST header: '34.64.202.179:8000'. You may need to add '34.64.202.179' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[28/Feb/2023 23:51:53] "GET /favicon.ico HTTP/1.1" 400 66747
+/home/qhrqufdlek/Desktop/library-management-website/main/config/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 28, 2023 - 23:51:30
+Django version 4.0.3, using settings 'config.settings'
+Starting development server at http://10.178.0.9:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/qhrqufdlek/Desktop/library-management-website/main/config/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 28, 2023 - 23:52:08
+Django version 4.0.3, using settings 'config.settings'
+Starting development server at http://10.178.0.9:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[28/Feb/2023 23:52:13] "GET / HTTP/1.1" 200 5628
+[28/Feb/2023 23:52:13] "GET /static/bootstrap.min.css HTTP/1.1" 200 163873
+[28/Feb/2023 23:52:13] "GET /static/bootstrap.min.js HTTP/1.1" 200 59219
+[28/Feb/2023 23:52:13] "GET /static/chemical.ico HTTP/1.1" 200 4286
+[01/Mar/2023 00:51:04] "GET / HTTP/1.1" 200 5628
+[01/Mar/2023 02:13:51,424] - Broken pipe from ('167.248.133.63', 59330)
+
+[01/Mar/2023 02:13:52] "GET / HTTP/1.1" 200 5628
+[01/Mar/2023 02:13:52,760] - Broken pipe from ('167.248.133.63', 39660)
+
+[01/Mar/2023 02:13:53] "GET / HTTP/1.1" 200 5628
+[01/Mar/2023 02:13:53] code 505, message Invalid HTTP version (2.0)
+[01/Mar/2023 02:13:53] "PRI * HTTP/2.0" 505 -
+[01/Mar/2023 02:13:53] "GET /static/chemical.ico HTTP/1.1" 200 4286
+Not Found: /favicon.ico
+[01/Mar/2023 02:13:54] "GET /favicon.ico HTTP/1.1" 404 2448
+[01/Mar/2023 03:47:04] code 400, message Bad request version ('À\x14À')
+[01/Mar/2023 03:47:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 03:47:16] "GET / HTTP/1.1" 200 5628
+[01/Mar/2023 03:47:38] "GET /static/chemical.ico HTTP/1.1" 200 4286
+Not Found: /robots.txt
+[01/Mar/2023 03:47:39] "GET /robots.txt HTTP/1.1" 404 2445
+Not Found: /sitemap.xml
+[01/Mar/2023 03:47:40] "GET /sitemap.xml HTTP/1.1" 404 2448
+[01/Mar/2023 03:47:42] "GET /static/bootstrap.min.js HTTP/1.1" 200 59219
+[01/Mar/2023 06:14:04] "GET / HTTP/1.1" 200 5628
+[01/Mar/2023 08:39:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[01/Mar/2023 08:39:41] "  /*à     Cookie: mstshash=Administr" 400 -
+[01/Mar/2023 10:26:53] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[01/Mar/2023 10:26:53] "  /*à     Cookie: mstshash=Administr" 400 -
+[01/Mar/2023 11:42:44] code 400, message Bad request syntax ('MGLNDD_34.64.202.179_8000')
+[01/Mar/2023 11:42:44] "MGLNDD_34.64.202.179_8000" 400 -
+[01/Mar/2023 11:49:27] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[01/Mar/2023 11:49:27] "  /*à     Cookie: mstshash=Administr" 400 -
+[01/Mar/2023 11:51:07] "GET / HTTP/1.1" 200 5628
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+[01/Mar/2023 11:51:28] "GET http://api.ipify.org/?format=json HTTP/1.1" 400 65617
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+[01/Mar/2023 11:51:32] "CONNECT www.shadowserver.org:443 HTTP/1.1" 400 65820
+[01/Mar/2023 15:08:49,120] - Broken pipe from ('162.142.125.213', 44428)
+
+[01/Mar/2023 15:08:50] "GET / HTTP/1.1" 200 5628
+[01/Mar/2023 15:08:50,483] - Broken pipe from ('162.142.125.213', 33448)
+
+[01/Mar/2023 15:08:50] "GET / HTTP/1.1" 200 5628
+[01/Mar/2023 15:08:51] code 505, message Invalid HTTP version (2.0)
+[01/Mar/2023 15:08:51] "PRI * HTTP/2.0" 505 -
+[01/Mar/2023 15:08:51] "GET /static/chemical.ico HTTP/1.1" 200 4286
+Not Found: /favicon.ico
+[01/Mar/2023 15:08:51] "GET /favicon.ico HTTP/1.1" 404 2448
+[01/Mar/2023 17:18:14] code 400, message Bad request version ('À\x13À')
+[01/Mar/2023 17:18:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 17:18:19] "GET / HTTP/1.1" 200 5628
+Watching for file changes with StatReloader
+[01/Mar/2023 19:56:58] code 400, message Bad request version ('Ð!1o´\x89¥¤P/%')
+[01/Mar/2023 19:56:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:56:58] code 400, message Bad request version ('\x91å\x9c}â½¶¡\x0eÁ"\x96\x05Bñü\x8a\x01d\x08Ãù¯>\x97\x13=\x9bÎô\\Ò\x00')
+[01/Mar/2023 19:56:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:56:58] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x88\x89¦\x02\x8e\x90\x06\x19¸')
+[01/Mar/2023 19:56:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:56:58] code 400, message Bad request version ('#iJ-pÑâLAÆ\x13@¾ßr\x93!¿:\x9aª\x01')
+[01/Mar/2023 19:56:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:18] code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ªª\x00\x00\x00+\x00\x07\x06ÚÚ\x03\x04\x03\x03Di\x00\x05\x00\x03\x02h2\x00-\x00\x02\x01\x01\x00')
+[01/Mar/2023 19:57:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:18] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[01/Mar/2023 19:57:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:18] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+[01/Mar/2023 19:57:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:18] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¬ßG\x1akÚøeÚ^orHÍ1XÒ\x02»6ù¡>q\x9dé')
+[01/Mar/2023 19:57:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:18] code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x1b\x00\x03\x02\x00\x02Di\x00\x05\x00\x03\x02h2\x00#\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[01/Mar/2023 19:57:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:18] code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+[01/Mar/2023 19:57:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:18] code 400, message Bad request version ('\x00\x17\x00\x00\x00#\x00\x00\x00')
+[01/Mar/2023 19:57:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:18] code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+[01/Mar/2023 19:57:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 01, 2023 - 19:56:50
+Django version 4.0.3, using settings 'config.settings'
+Starting development server at http://10.178.0.9:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[01/Mar/2023 19:57:34] code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+[01/Mar/2023 19:57:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:34] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x05\\ëëw\x98OK')
+[01/Mar/2023 19:57:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:34] code 400, message Bad request version ('\x01\x94þv\x00')
+[01/Mar/2023 19:57:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:34] code 400, message Bad request version ('á\x11\x00')
+[01/Mar/2023 19:57:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:35] code 400, message Bad request version ('¾')
+[01/Mar/2023 19:57:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:35] code 400, message Bad request version ('\x94Öõr©L\x00-\x00\x02\x01\x01ÿ\x01\x00\x01\x00\x00')
+[01/Mar/2023 19:57:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:35] code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+[01/Mar/2023 19:57:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:35] code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x12\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00+\x00\x07\x06\x8a\x8a\x03\x04\x03\x03\x00')
+[01/Mar/2023 19:57:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:35] code 400, message Bad request version ('\x02h2\x08http/1.1Di\x00\x05\x00\x03\x02h2\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[01/Mar/2023 19:57:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:35] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[01/Mar/2023 19:57:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:35] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93úú\x00\x00Di\x00\x05\x00\x03\x02h2\x00')
+[01/Mar/2023 19:57:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:57:35] code 400, message Bad request version ('õä\x9ccÔzO¼Ï\x00')
+[01/Mar/2023 19:57:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Watching for file changes with StatReloader
+[01/Mar/2023 19:58:17] code 400, message Bad request version ('üÌ¹·0§\x8b¹°üE\x87\x07XÍUC\x13¸¼SÅuÏ\x04ñ)^nÆüVÿ\x01\x00\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[01/Mar/2023 19:58:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:58:17] code 400, message Bad request version ('\x00\x02\x01\x00ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00')
+[01/Mar/2023 19:58:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:58:17] code 400, message Bad request version ('{·læ\x06Ö')
+[01/Mar/2023 19:58:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:58:17] code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x1a\x1a\x00\x00\x00+\x00\x07\x06JJ\x03\x04\x03\x03\x00\x12\x00\x00\x00')
+[01/Mar/2023 19:58:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:58:17] code 400, message Bad request version ('VÒ÷ºfÕ\x84å\x004\x95ÞX\x8faV5BVùÊ\x98\x03\x87^E¼Q{²\x01B\x00#\x00\x00\x00-\x00\x02\x01\x01Di\x00\x05\x00\x03\x02h2ÿ\x01\x00\x01\x00\x00')
+[01/Mar/2023 19:58:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:58:17] code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00')
+[01/Mar/2023 19:58:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:58:17] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03þ7\x92÷ðq')
+[01/Mar/2023 19:58:17] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[01/Mar/2023 19:58:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:58:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:58:17] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93jj\x00\x00\x00')
+[01/Mar/2023 19:58:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:58:17] code 400, message Bad request version ('\x00\x02\x01\x00\x00-\x00\x02\x01\x01ÿ\x01\x00\x01\x00\x00#\x00\x00\x00')
+[01/Mar/2023 19:58:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:58:17] code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93úú\x00\x00\x00\x12\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x17\x00\x00\x00')
+[01/Mar/2023 19:58:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Mar/2023 19:58:17] code 400, message Bad request version ('\x02h2\x08http/1.1\x00+\x00\x07\x06ªª\x03\x04\x03\x03\x00')
+[01/Mar/2023 19:58:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Watching for file changes with StatReloader
+[01/Mar/2023 19:59:51] "GET / HTTP/1.1" 200 5628
+[01/Mar/2023 20:03:56] "GET / HTTP/1.1" 200 5628
+[01/Mar/2023 20:03:56] "GET /static/bootstrap.min.js HTTP/1.1" 200 59219
+[01/Mar/2023 20:03:56] "GET /static/bootstrap.min.css HTTP/1.1" 200 163873
+[01/Mar/2023 20:03:56] "GET /static/chemical.ico HTTP/1.1" 200 4286
+[01/Mar/2023 20:03:58,387] - Broken pipe from ('121.155.101.243', 58530)
+
+[01/Mar/2023 20:03:58,388] - Broken pipe from ('121.155.101.243', 58531)
+
+[01/Mar/2023 20:04:00,484] - Broken pipe from ('121.155.101.243', 58534)
+
+[01/Mar/2023 20:04:00,484] - Broken pipe from ('121.155.101.243', 58533)
+
+[01/Mar/2023 22:09:44] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x11òo[öFÁÂÌ\x16Ü2¥å{§~ÖªìÛ\x14Ë\x91)¬ð[&þÀ!\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[01/Mar/2023 22:09:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Mar/2023 02:41:54] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x038W\x9b´bå\xad\x18c·5\x81\x8dº\x8bÒÉU]à/bxì½Î\x97½×\x11RÐ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[02/Mar/2023 02:41:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Mar/2023 02:41:55] code 400, message Bad request version ('À\x14À')
+[02/Mar/2023 02:41:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Mar/2023 02:41:55] "GET / HTTP/1.1" 200 5628
+[02/Mar/2023 02:41:55] code 400, message Bad request version ('À\x14À')
+[02/Mar/2023 02:41:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /api/islogged
+[02/Mar/2023 02:41:56] "GET /api/islogged HTTP/1.1" 404 2451
+[02/Mar/2023 03:27:21] "GET / HTTP/1.1" 200 5628
+[02/Mar/2023 10:16:25] "GET / HTTP/1.1" 200 5628
+[02/Mar/2023 10:28:44,625] - Broken pipe from ('162.142.125.219', 45386)
+
+[02/Mar/2023 10:28:45] "GET / HTTP/1.1" 200 5628
+[02/Mar/2023 10:28:45,952] - Broken pipe from ('162.142.125.219', 34264)
+
+[02/Mar/2023 10:28:46] "GET / HTTP/1.1" 200 5628
+[02/Mar/2023 10:28:46] code 505, message Invalid HTTP version (2.0)
+[02/Mar/2023 10:28:46] "PRI * HTTP/2.0" 505 -
+[02/Mar/2023 10:28:46] "GET /static/chemical.ico HTTP/1.1" 200 4286
+Not Found: /favicon.ico
+[02/Mar/2023 10:28:47] "GET /favicon.ico HTTP/1.1" 404 2448
+[02/Mar/2023 15:29:33] code 400, message Bad request syntax ('MGLNDD_34.64.202.179_8000')
+[02/Mar/2023 15:29:33] "MGLNDD_34.64.202.179_8000" 400 -
+[02/Mar/2023 18:21:07] code 400, message Bad request version ("\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À\xadÀ®À¬À$À(À#À'À")
+[02/Mar/2023 18:21:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Mar/2023 18:24:17] "GET / HTTP/1.1" 200 5628
+[02/Mar/2023 18:24:18] "GET /static/chemical.ico HTTP/1.1" 200 4286
+Not Found: /freepbx/recordings/theme/main.css
+[02/Mar/2023 19:02:50] "GET /freepbx/recordings/theme/main.css HTTP/1.1" 404 2514
+[02/Mar/2023 19:24:02] code 400, message Bad request version ("\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À\xadÀ®À¬À$À(À#À'À")
+[02/Mar/2023 19:24:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Mar/2023 19:40:33] "GET / HTTP/1.1" 200 5628
+[02/Mar/2023 19:48:18] "GET / HTTP/1.1" 200 5628
+[02/Mar/2023 21:38:20] "GET / HTTP/1.1" 200 5628
+[03/Mar/2023 00:14:25] "GET / HTTP/1.1" 200 5628
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+[03/Mar/2023 00:15:34] "GET http://api.ipify.org/?format=json HTTP/1.1" 400 63535
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+[03/Mar/2023 00:15:56] "CONNECT www.shadowserver.org:443 HTTP/1.1" 400 63739
+[03/Mar/2023 01:10:44] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x037*Q,îÔëû\x9b\x1a^@^r[\x17¥ê¤n\x7f\xadOu².|\x1b\x91rOT\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[03/Mar/2023 01:10:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'instance-1.c.pure-lodge-353000.internal:8000'. You may need to add 'instance-1.c.pure-lodge-353000.internal' to ALLOWED_HOSTS.
+Bad Request: /
+[03/Mar/2023 02:31:22] "GET / HTTP/1.0" 400 63354
+[03/Mar/2023 02:35:32] "GET / HTTP/1.1" 200 5628
+[03/Mar/2023 02:35:32] "GET /static/chemical.ico HTTP/1.1" 200 4286
+[03/Mar/2023 03:35:11] "GET / HTTP/1.1" 200 5628
+[03/Mar/2023 10:56:16] "GET / HTTP/1.1" 200 5628
+[03/Mar/2023 12:05:21] code 400, message Bad request version ('À\x14À')
+[03/Mar/2023 12:05:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Mar/2023 12:05:21] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¸\x7fF\x06E\x90\x94rÃ½\x80u')
+[03/Mar/2023 12:05:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Mar/2023 12:05:22] "GET / HTTP/1.1" 200 5628
+[03/Mar/2023 12:05:22] code 400, message Bad request version ('À\x14À')
+[03/Mar/2023 12:05:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /api/islogged
+[03/Mar/2023 12:05:23] "GET /api/islogged HTTP/1.1" 404 2451
+[03/Mar/2023 12:11:36] "GET / HTTP/1.1" 200 5628
+[03/Mar/2023 15:18:04] "GET / HTTP/1.1" 200 5628
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+[03/Mar/2023 15:18:29] "GET http://api.ipify.org/?format=json HTTP/1.1" 400 63533
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+[03/Mar/2023 15:18:32] "CONNECT www.shadowserver.org:443 HTTP/1.1" 400 63736
+[03/Mar/2023 16:20:40] "GET / HTTP/1.1" 200 5628
+[03/Mar/2023 16:44:40] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[03/Mar/2023 16:44:40] "    c                           " 400 -
+Not Found: /robots.txt
+[03/Mar/2023 18:32:37] "GET /robots.txt HTTP/1.1" 404 2445
+[03/Mar/2023 18:32:38] "HEAD / HTTP/1.1" 200 5628
+[03/Mar/2023 18:33:26] "GET / HTTP/1.1" 200 5628
+[03/Mar/2023 18:33:26] "GET /static/bootstrap.min.js HTTP/1.1" 200 59219
+[03/Mar/2023 18:33:26] "GET /static/bootstrap.min.css HTTP/1.1" 200 163873
+[03/Mar/2023 18:33:26] "GET /static/chemical.ico HTTP/1.1" 200 4286
+[03/Mar/2023 18:37:42,878] - Broken pipe from ('106.101.192.4', 57068)
+
+[03/Mar/2023 18:37:43,076] - Broken pipe from ('106.101.192.4', 11706)
+
+[03/Mar/2023 19:15:18] code 400, message Bad request syntax ('MGLNDD_34.64.202.179_8000')
+[03/Mar/2023 19:15:18] "MGLNDD_34.64.202.179_8000" 400 -
+[03/Mar/2023 19:36:58] "GET / HTTP/1.1" 200 5628
+[04/Mar/2023 01:29:19,333] - Broken pipe from ('167.94.138.117', 53966)
+
+[04/Mar/2023 01:29:20] "GET / HTTP/1.1" 200 5628
+[04/Mar/2023 01:29:20,679] - Broken pipe from ('167.94.138.117', 38418)
+
+[04/Mar/2023 01:29:20] "GET / HTTP/1.1" 200 5628
+[04/Mar/2023 01:29:21] code 505, message Invalid HTTP version (2.0)
+[04/Mar/2023 01:29:21] "PRI * HTTP/2.0" 505 -
+[04/Mar/2023 01:29:21] "GET /static/chemical.ico HTTP/1.1" 200 4286
+Not Found: /favicon.ico
+[04/Mar/2023 01:29:22] "GET /favicon.ico HTTP/1.1" 404 2448
+[04/Mar/2023 03:46:25] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00{\x01\x00\x00w\x03\x03S'\x0fJ¨½®HTð®¤)æ±\x02\x103íÖ¬\x81¥\x9b\x12p\x01ØU\x965Ö\x00\x00\x1aÀ/À+À\x11À\x07À\x13À")
+[04/Mar/2023 03:46:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[04/Mar/2023 05:45:06] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00\x19Wøa')
+[04/Mar/2023 05:45:06] " Wøa " 400 -
+[04/Mar/2023 05:45:06,719] - Broken pipe from ('89.248.165.52', 36344)
+
+[04/Mar/2023 05:46:15] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00\x19Wøa')
+[04/Mar/2023 05:46:15] " Wøa " 400 -
+[04/Mar/2023 05:46:15,556] - Broken pipe from ('89.248.165.52', 41338)
+
+[04/Mar/2023 05:47:16] code 400, message Bad request syntax ('\x05\x01\x00')
+[04/Mar/2023 05:47:16] " " 400 -
+[04/Mar/2023 05:47:16,030] - Broken pipe from ('89.248.165.52', 49364)
+
+Invalid HTTP_HOST header: 'smtp.aol.com:25'. You may need to add 'smtp.aol.com' to ALLOWED_HOSTS.
+Bad Request: /smtp.aol.com:25
+[04/Mar/2023 05:47:16] "CONNECT smtp.aol.com:25 HTTP/1.1" 400 62873
+[04/Mar/2023 05:59:38] "GET / HTTP/1.1" 200 5628
+[04/Mar/2023 07:00:05] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00PUÎ')
+[04/Mar/2023 07:00:05] " PUÎ s " 400 -
+[04/Mar/2023 07:00:05,147] - Broken pipe from ('89.248.165.52', 51790)
+
+[04/Mar/2023 07:01:12] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00PUÎ')
+[04/Mar/2023 07:01:12] " PUÎ s " 400 -
+[04/Mar/2023 07:02:13] code 400, message Bad request syntax ('\x05\x01\x00')
+[04/Mar/2023 07:02:13] " " 400 -
+[04/Mar/2023 07:02:13,040] - Broken pipe from ('89.248.165.52', 33324)
+
+Invalid HTTP_HOST header: '85.206.160.115:80'. You may need to add '85.206.160.115' to ALLOWED_HOSTS.
+Bad Request: /85.206.160.115:80
+[04/Mar/2023 07:02:13] "CONNECT 85.206.160.115:80 HTTP/1.1" 400 62925
+[04/Mar/2023 09:25:32,104] - Broken pipe from ('162.142.125.219', 59420)
+
+[04/Mar/2023 09:25:33] "GET / HTTP/1.1" 200 5628
+[04/Mar/2023 09:25:33,426] - Broken pipe from ('162.142.125.219', 52082)
+
+[04/Mar/2023 09:25:33] "GET / HTTP/1.1" 200 5628
+[04/Mar/2023 09:25:34] code 505, message Invalid HTTP version (2.0)
+[04/Mar/2023 09:25:34] "PRI * HTTP/2.0" 505 -
+[04/Mar/2023 09:25:34] "GET /static/chemical.ico HTTP/1.1" 200 4286
+Not Found: /favicon.ico
+[04/Mar/2023 09:25:34] "GET /favicon.ico HTTP/1.1" 404 2448
+[04/Mar/2023 10:06:15] "GET / HTTP/1.1" 200 5628
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+[04/Mar/2023 10:07:14] "GET http://api.ipify.org/?format=json HTTP/1.1" 400 63540
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+[04/Mar/2023 10:07:37] "CONNECT www.shadowserver.org:443 HTTP/1.1" 400 63743
+[04/Mar/2023 10:18:19] "GET / HTTP/1.1" 200 5628
+[04/Mar/2023 10:35:29] "GET / HTTP/1.1" 200 5628
+[04/Mar/2023 10:35:30] code 505, message Invalid HTTP version (2.0)
+[04/Mar/2023 10:35:30] "PRI * HTTP/2.0" 505 -
+[04/Mar/2023 10:35:30] "GET /static/chemical.ico HTTP/1.1" 200 4286
+Not Found: /favicon.ico
+[04/Mar/2023 10:35:30] "GET /favicon.ico HTTP/1.1" 404 2448
+[04/Mar/2023 11:59:47] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[04/Mar/2023 11:59:47] "  /*à     Cookie: mstshash=Administr" 400 -
+[04/Mar/2023 12:36:35] "GET / HTTP/1.1" 200 5628
+[04/Mar/2023 13:15:38,818] - Broken pipe from ('162.142.125.7', 33788)
+
+[04/Mar/2023 13:15:39] "GET / HTTP/1.1" 200 5628
+[04/Mar/2023 13:15:40,141] - Broken pipe from ('162.142.125.7', 48538)
+
+[04/Mar/2023 13:15:40] "GET / HTTP/1.1" 200 5628
+[04/Mar/2023 13:15:40] code 505, message Invalid HTTP version (2.0)
+[04/Mar/2023 13:15:40] "PRI * HTTP/2.0" 505 -
+[04/Mar/2023 13:15:41] "GET /static/chemical.ico HTTP/1.1" 200 4286
+Not Found: /favicon.ico
+[04/Mar/2023 13:15:41] "GET /favicon.ico HTTP/1.1" 404 2448
+[04/Mar/2023 13:39:34] "GET / HTTP/1.1" 200 5628
+[04/Mar/2023 14:50:43] "GET / HTTP/1.1" 200 5628
+[04/Mar/2023 15:26:53] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[04/Mar/2023 15:26:53] "    c                           " 400 -
+[04/Mar/2023 18:47:14] "GET / HTTP/1.1" 200 5628
+[04/Mar/2023 20:05:00] code 400, message Bad request version ('t?g¾jù\x061')
+[04/Mar/2023 20:05:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[04/Mar/2023 20:11:30] "GET / HTTP/1.1" 200 5628
+Not Found: /freepbx/recordings/theme/main.css
+[04/Mar/2023 20:45:13] "GET /freepbx/recordings/theme/main.css HTTP/1.1" 404 2514
+[04/Mar/2023 21:10:01] code 400, message Bad request version ('À\x14À')
+[04/Mar/2023 21:10:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[04/Mar/2023 21:10:02] code 400, message Bad request version ('À\x14À')
+[04/Mar/2023 21:10:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[04/Mar/2023 21:10:02] "GET / HTTP/1.1" 200 5628
+[04/Mar/2023 21:10:03] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ì\x9aÄZj5´?e\x0f\x9c\x9fÖ\x03\x96í\x06eðèÁçÝÁì\x05\x9e}ªåe\x12\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[04/Mar/2023 21:10:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /api/islogged
+[04/Mar/2023 21:10:04] "GET /api/islogged HTTP/1.1" 404 2451
+[04/Mar/2023 21:52:36] code 400, message Bad request version ("\x88ç¤Vè6bþÞ\x06·\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À\xadÀ®À¬À$À(À#À'À")
+[04/Mar/2023 21:52:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'azenv.net'. You may need to add 'azenv.net' to ALLOWED_HOSTS.
+Bad Request: /http:/azenv.net/
+[04/Mar/2023 22:43:44] "GET http://azenv.net/ HTTP/1.1" 400 63219
+[04/Mar/2023 22:57:29] code 400, message Bad request syntax ('MGLNDD_34.64.202.179_8000')
+[04/Mar/2023 22:57:29] "MGLNDD_34.64.202.179_8000" 400 -
+[04/Mar/2023 23:53:09] "GET / HTTP/1.1" 200 5628
+[05/Mar/2023 03:33:13] code 400, message Bad request version ('À\x13À')
+[05/Mar/2023 03:33:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Mar/2023 03:33:13] "GET / HTTP/1.1" 200 5628
+[05/Mar/2023 03:33:13] code 400, message Bad request syntax ('HELP')
+[05/Mar/2023 03:33:13] "HELP" 400 -
+Not Found: /.git/config
+[05/Mar/2023 03:33:14] "GET /.git/config HTTP/1.1" 404 2448
+Not Found: /.vscode/sftp.json
+Not Found: /debug/default/view
+[05/Mar/2023 03:33:14] "GET /.vscode/sftp.json HTTP/1.1" 404 2466
+[05/Mar/2023 03:33:14] "GET /debug/default/view?panel=config HTTP/1.1" 404 2482
+Not Found: /server-status
+[05/Mar/2023 03:33:14] "GET /server-status HTTP/1.1" 404 2454
+Not Found: /.DS_Store
+[05/Mar/2023 03:33:14] "GET /.DS_Store HTTP/1.1" 404 2442
+[05/Mar/2023 03:33:14] "GET / HTTP/1.1" 200 5628
+Not Found: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+Not Found: /.env
+[05/Mar/2023 03:33:14] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 2640
+Not Found: /s/937313e2230323e24363e24333/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+[05/Mar/2023 03:33:14] "GET /s/937313e2230323e24363e24333/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 2711
+[05/Mar/2023 03:33:14] "GET /.env HTTP/1.1" 404 2427
+[05/Mar/2023 03:33:14] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 5628
+Not Found: /telescope/requests
+Not Found: /info.php
+[05/Mar/2023 03:33:14] "GET /telescope/requests HTTP/1.1" 404 2469
+[05/Mar/2023 03:33:14] "GET /info.php HTTP/1.1" 404 2439
+Not Found: /api/search
+[05/Mar/2023 03:33:14] "GET /api/search?folderIds=0 HTTP/1.1" 404 2457
+Not Found: /config.json
+[05/Mar/2023 03:33:14] "GET /config.json HTTP/1.1" 404 2448
+Not Found: /login.action
+[05/Mar/2023 03:33:14] "GET /login.action HTTP/1.1" 404 2451
+Not Found: /about
+Not Found: /v2/_catalog
+[05/Mar/2023 03:33:14] "GET /v2/_catalog HTTP/1.1" 404 2448
+[05/Mar/2023 03:33:14] "GET /about HTTP/1.1" 404 2430
+[05/Mar/2023 05:38:53] code 400, message Bad request version ('\x9bX\x15gVþ|')
+[05/Mar/2023 05:38:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Mar/2023 05:50:14,650] - Broken pipe from ('162.142.125.219', 36140)
+
+[05/Mar/2023 05:50:15] "GET / HTTP/1.1" 200 5628
+[05/Mar/2023 05:50:15,972] - Broken pipe from ('162.142.125.219', 43752)
+
+[05/Mar/2023 05:50:16] "GET / HTTP/1.1" 200 5628
+[05/Mar/2023 05:50:16] code 505, message Invalid HTTP version (2.0)
+[05/Mar/2023 05:50:16] "PRI * HTTP/2.0" 505 -
+[05/Mar/2023 05:50:16] "GET /static/chemical.ico HTTP/1.1" 200 4286
+Not Found: /favicon.ico
+[05/Mar/2023 05:50:17] "GET /favicon.ico HTTP/1.1" 404 2448
+[05/Mar/2023 06:47:11] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[05/Mar/2023 06:47:11] "    c                           " 400 -
+[05/Mar/2023 07:13:33,429] - Broken pipe from ('167.94.138.60', 47384)
+
+[05/Mar/2023 07:13:34] "GET / HTTP/1.1" 200 5628
+[05/Mar/2023 07:13:34,777] - Broken pipe from ('167.94.138.60', 53912)
+
+[05/Mar/2023 07:13:34] "GET / HTTP/1.1" 200 5628
+[05/Mar/2023 07:13:35] code 505, message Invalid HTTP version (2.0)
+[05/Mar/2023 07:13:35] "PRI * HTTP/2.0" 505 -
+[05/Mar/2023 07:13:35] "GET /static/chemical.ico HTTP/1.1" 200 4286
+Not Found: /favicon.ico
+[05/Mar/2023 07:13:36] "GET /favicon.ico HTTP/1.1" 404 2448
+[05/Mar/2023 08:33:45] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[05/Mar/2023 08:33:45] "    c                           " 400 -
+[05/Mar/2023 09:08:20] "GET / HTTP/1.1" 200 5628
+[05/Mar/2023 10:08:49,452] - Broken pipe from ('165.22.226.133', 61001)
+
+[05/Mar/2023 10:17:24] "GET / HTTP/1.1" 200 5628
+[05/Mar/2023 10:39:39,884] - Broken pipe from ('162.142.125.210', 59400)
+
+[05/Mar/2023 10:39:41] "GET / HTTP/1.1" 200 5628
+[05/Mar/2023 10:39:41,209] - Broken pipe from ('162.142.125.210', 54156)
+
+[05/Mar/2023 10:39:41] "GET / HTTP/1.1" 200 5628
+[05/Mar/2023 10:39:41] code 505, message Invalid HTTP version (2.0)
+[05/Mar/2023 10:39:41] "PRI * HTTP/2.0" 505 -
+[05/Mar/2023 10:39:42] "GET /static/chemical.ico HTTP/1.1" 200 4286
+Not Found: /favicon.ico
+[05/Mar/2023 10:39:42] "GET /favicon.ico HTTP/1.1" 404 2448
+[05/Mar/2023 10:52:37,530] - Broken pipe from ('185.151.242.216', 40411)
+
+[05/Mar/2023 12:29:19,294] - Broken pipe from ('185.151.240.242', 49929)
+
+[05/Mar/2023 14:21:46] "GET / HTTP/1.1" 200 5628
+[05/Mar/2023 14:21:46] "GET /static/bootstrap.min.js HTTP/1.1" 200 59219
+[05/Mar/2023 14:21:46] "GET /static/bootstrap.min.css HTTP/1.1" 200 163873
+[05/Mar/2023 14:21:46] "GET /static/chemical.ico HTTP/1.1" 200 4286
+[05/Mar/2023 14:32:46] "GET / HTTP/1.1" 200 5628
+[05/Mar/2023 15:31:52] "GET / HTTP/1.1" 200 5628
+[05/Mar/2023 15:32:07] "GET / HTTP/1.1" 200 5628
+[05/Mar/2023 15:32:15] "GET /SRRT_library/9781402894626/ HTTP/1.1" 200 2636
+[05/Mar/2023 15:32:16] "GET /SRRT_library/ HTTP/1.1" 200 5628
+[05/Mar/2023 15:39:44] "GET / HTTP/1.1" 200 5628
+[05/Mar/2023 15:39:46] "GET /static/chemical.ico HTTP/1.1" 200 4286
+[05/Mar/2023 15:46:35] "GET / HTTP/1.1" 200 5628
+[05/Mar/2023 15:46:38] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2682
+[05/Mar/2023 15:47:03] "GET /SRRT_library/ HTTP/1.1" 200 5628
+[05/Mar/2023 15:47:26] "GET /SRRT_library/9780521540513/ HTTP/1.1" 200 2682

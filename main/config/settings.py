@@ -27,7 +27,7 @@ DEBUG = True
 
 #example ALLOWED_HOSTS = ['34.64.146.1','8080']
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['34.64.104.233','8080']
+ALLOWED_HOSTS = ['','']
 
 # Application definition
 
