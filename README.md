@@ -35,7 +35,20 @@ python manage.py runserver 10.178.0.9:8080
 2.4 브라우저에서 django에 접속한다.  
 http://34.64.146.1:8080 접속.  
 
-# pull 해줘야 하는 setting
-1. pip install django-isbn-field==0.5.3  
-2. python manage.py migrate // migration
-3. secret key
+# TODO
+- nginx로 웹서버 안전하게 구현하기. 지금은 임시로 띄움
+- secret key를 안전하게 바꿔야함.
+- test case를 공유할 수 있으면 좋겠음.
+- 연체 알림 서비스 필요
+- git ignore에 allowd host line만 무시됐으면 좋겠음.
+- 회원가입 할 때 phone number 중대 소대까지 입력하기
+- 로그인 승인 기능이 필요
+
+#### 대대장님이 지적해주신 부분
+- 서버 운용 하는데 드는 비용 해결
+- app으로 만들기 -> 만약 한다면 apache cordova로
+- 국방 보안 앱에 포팅 -> 오픈소스 프로젝트 아닐 것 같은데...
+
+
+#### 3월 25일 1차 마무리
+만약 나중에 프로젝트를 이어서 진행 한다면, 추가 하기. 
